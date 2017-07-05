@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+
+    <artifactId>config-server</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <parent>
+        <groupId>com.deliverit</groupId>
+        <artifactId>spring-cloud</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
