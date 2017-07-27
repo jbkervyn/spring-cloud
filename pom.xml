@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.4.RELEASE</version>
+        <version>1.5.5.RELEASE</version>
     </parent>
 
     <dependencyManagement>
@@ -33,5 +33,7 @@
 
     <modules>
         <module>config-server</module>
+        <module>eureka-server</module>
+        <module>zipkin-server</module>
     </modules>
 </project>
