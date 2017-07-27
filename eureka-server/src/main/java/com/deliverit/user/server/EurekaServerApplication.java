@@ -1,13 +1,13 @@
-package com.deliverit.zipkin.server;
+package com.deliverit.user.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZipkinServerApplication {
+public class EurekaServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ZipkinServerApplication.class, args);
+        SpringApplication.run(EurekaServerApplication.class, args);
     }
 
 }

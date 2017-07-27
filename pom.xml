@@ -35,5 +35,7 @@
         <module>config-server</module>
         <module>eureka-server</module>
         <module>zipkin-server</module>
+        <module>user-client</module>
+        <module>user-server</module>
     </modules>
 </project>
